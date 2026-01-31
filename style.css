@@ -1,1 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+.body{
+    background-color: #252222;
+    background-size: cover;
+}
+.card{
+    width:50%;
+    background:linear-gradient(130deg , #00feba , #5b548a);
+    border-radius: 1rem;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.search{
+    border: 0;
+    outline: 0; 
+    border-radius:2rem;
+    width: 100%;
+}
