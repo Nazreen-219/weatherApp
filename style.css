@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding: 0;
- 
+    height: 100vh;
     display: flex;
     justify-content: center;   /* center horizontally */
     align-items: center;       /* center vertically */
@@ -57,4 +57,51 @@ body{
     height:1.7rem;
     width:1.7rem;
 
+}
+.weather{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.weather h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}
+.detail  p{
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight:500;
+}
+.detail .detailA{
+  margin: 3rem 4rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.detail .detailB{
+  margin: 3rem 4rem;
+display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.humidity{
+    height:3rem;
+    width: 3rem;
+}
+.wind{
+    height:3.5rem;
+    width: 3.5rem;
 }
